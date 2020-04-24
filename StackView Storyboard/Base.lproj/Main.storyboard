@@ -22,34 +22,34 @@
                                     <constraint firstAttribute="height" constant="80" id="ucQ-mT-uE7"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="VoQ-yy-1NK">
-                                <rect key="frame" x="69" y="113" width="640" height="647"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="VoQ-yy-1NK">
+                                <rect key="frame" x="0.0" y="80" width="414" height="782"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NhQ-0y-5e1">
-                                        <rect key="frame" x="0.0" y="0.0" width="640" height="472"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="472"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chucks" translatesAutoresizingMaskIntoConstraints="NO" id="Gwq-rZ-kca">
-                                                <rect key="frame" x="0.0" y="0.0" width="640" height="472"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="472"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FlD-hw-23K">
-                                        <rect key="frame" x="0.0" y="472" width="500" height="100"/>
+                                        <rect key="frame" x="0.0" y="472" width="414" height="100"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="XB7-Ra-7KD">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="XB7-Ra-7KD">
+                                                <rect key="frame" x="0.0" y="0.0" width="14" height="100"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="9A1-0W-bwj">
-                                                <rect key="frame" x="100" y="0.0" width="100" height="100"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="9A1-0W-bwj">
+                                                <rect key="frame" x="14" y="0.0" width="100" height="100"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="HXJ-UT-rdW">
-                                                <rect key="frame" x="200" y="0.0" width="100" height="100"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="HXJ-UT-rdW">
+                                                <rect key="frame" x="114" y="0.0" width="100" height="100"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes4" translatesAutoresizingMaskIntoConstraints="NO" id="BEe-vc-QOV">
-                                                <rect key="frame" x="300" y="0.0" width="100" height="100"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes4" translatesAutoresizingMaskIntoConstraints="NO" id="BEe-vc-QOV">
+                                                <rect key="frame" x="214" y="0.0" width="100" height="100"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes5" translatesAutoresizingMaskIntoConstraints="NO" id="ShQ-xC-dl0">
-                                                <rect key="frame" x="400" y="0.0" width="100" height="100"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="shoes5" translatesAutoresizingMaskIntoConstraints="NO" id="ShQ-xC-dl0">
+                                                <rect key="frame" x="314" y="0.0" width="100" height="100"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -82,15 +82,15 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1tD-VI-GtD">
-                                        <rect key="frame" x="0.0" y="613" width="72" height="34"/>
+                                        <rect key="frame" x="0.0" y="613" width="72" height="169"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nhw-yu-XKL">
-                                                <rect key="frame" x="0.0" y="0.0" width="31" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="31" height="169"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Buy"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcX-8V-XrB">
-                                                <rect key="frame" x="39" y="0.0" width="33" height="34"/>
+                                                <rect key="frame" x="39" y="0.0" width="33" height="169"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Like"/>
                                             </button>
@@ -102,8 +102,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="kiq-jd-2yr" secondAttribute="trailing" id="4Ae-1F-RGi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VoQ-yy-1NK" secondAttribute="bottom" id="CS3-Rd-ReY"/>
                             <constraint firstItem="kiq-jd-2yr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="D7M-Nb-Oju"/>
+                            <constraint firstAttribute="trailing" secondItem="VoQ-yy-1NK" secondAttribute="trailing" id="Egx-PS-v3p"/>
+                            <constraint firstItem="VoQ-yy-1NK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="d2W-b5-cmx"/>
                             <constraint firstItem="kiq-jd-2yr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jaQ-cm-dH3"/>
+                            <constraint firstItem="VoQ-yy-1NK" firstAttribute="top" secondItem="kiq-jd-2yr" secondAttribute="bottom" id="wnW-qg-z0i"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
